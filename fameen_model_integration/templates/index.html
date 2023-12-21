@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disability Prediction</title>
+</head>
+<body>
+    <h1>Disability Prediction</h1>
+    <form method="post" action="/predict">
+        <label for="area_name">Area Name:</label>
+        <input type="text" name="area_name" required><br>
+        <label for="rural_urban">Rural/Urban:</label>
+        <input type="text" name="rural_urban" required><br>
+        <label for="age_group">Age Group:</label>
+        <input type="text" name="age_group" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
